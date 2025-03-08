@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header,
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+header {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-links {
+    display: flex;
+    flex-direction: row;
+}
