@@ -1,19 +1,44 @@
 body {
-    font-family: Roboto, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 header,
 footer {
-    background-color: #1f2937;
-    color: #f9faf8;
+    background-color: #1f2937; 
 }
+
+footer {
+    color: #e5e7eb;
+}
+
 header {
+    color: #f9faf8;
     font-size: 24px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .header-links {
+    font-size: 18px;
     display: flex;
     flex-direction: row;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-container {
+    background-color: #1f2937;
 }
